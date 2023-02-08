@@ -41,6 +41,11 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
+"@netlify/next@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@netlify/next/-/next-1.4.4.tgz#b9c050aacc22c4d20daff078b7d007610b771cfa"
+  integrity sha512-C6jpUHhq5bkjJ/Ic9vLegnJ938+BfCgP5MPoSstjjCMzgXBdCCnDk5nK1BWji5ccxBxlYwpHYPQGFH35WwD6UQ==
+
 "@next/env@13.1.2":
   version "13.1.2"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.2.tgz#4f13e3e9d44bb17fdc1d4543827459097035f10f"
