@@ -45,7 +45,7 @@ const Home = ({ categories, products }: Props) => {
           </h1>
 
           <Tab.Group defaultIndex={3}>
-            <Tab.List className="flex justify-center">
+            <Tab.List className="flex justify-center flex-wrap">
               {categories.map((category) => (
                 <Tab
                   key={category._id}
