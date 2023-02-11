@@ -17,7 +17,6 @@ interface Props {
 }
 
 const Home = ({ categories, products }: Props) => {
-
   const showProducts = (category: number) => {
     return products
       .filter((product) => product.category._ref === categories[category]._id)
@@ -27,7 +26,7 @@ const Home = ({ categories, products }: Props) => {
   return (
     <div className="">
       <Head>
-        <title>Apple Redesign</title>
+        <title>Apple Store</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -40,12 +39,15 @@ const Home = ({ categories, products }: Props) => {
       </main>
       <section className="relative z-40 -mt-[100vh] min-h-screen bg-[#1B1B1B]">
         <div className="space-y-10 py-16">
-          <h1 className="text-center text-4xl font-medium tracking-wide text-white md:text-5xl">
+          <h1
+            className="text-center text-4xl font-medium tracking-wide text-white md:text-5xl"
+            id="buySection"
+          >
             New Promos
           </h1>
 
           <Tab.Group defaultIndex={3}>
-            <Tab.List className="flex justify-center flex-wrap">
+            <Tab.List className="flex flex-wrap justify-center">
               {categories.map((category) => (
                 <Tab
                   key={category._id}

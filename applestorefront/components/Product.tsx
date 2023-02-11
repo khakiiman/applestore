@@ -24,7 +24,7 @@ function Product({ product }: Props) {
       <div className="relative h-64 w-full md:h-72">
         <Image
           src={urlFor(product.image[0]).url()}
-          alt="prodcutImage"
+          alt="productImage"
           fill
           style={{ objectFit: "contain" }}
         />
@@ -32,10 +32,10 @@ function Product({ product }: Props) {
       <div className="flex flex-1 items-center justify-between space-x-3">
         <div className="space-y-2 text-xl text-white md:text-2xl ">
           <p>{product.title}</p>
-          <p>{product.price}</p>
+          <p>${product.price}</p>
         </div>
         <div
-          className="h-15 w-15 flex flex-shrink-0 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 md:h-[60px] md:w-[60px]"
+          className="h-16 w-16 flex flex-shrink-0 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 md:h-[70px] md:w-[70px]"
           onClick={addItemToBasket}
         >
           <ShoppingCartIcon className="h-8 w-8 text-white" />

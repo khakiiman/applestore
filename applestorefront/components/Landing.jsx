@@ -20,7 +20,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
-        <Image src="/iphone.png" fill style={{ objectFit: "contain" }} alt="heroImage"/>
+        <Image src="/appleHero.jpg" fill style={{ objectFit: "contain" }} alt="heroImage" priority/>
       </div>
     </section>
   );
