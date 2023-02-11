@@ -57,6 +57,9 @@ function Success({ products }: Props) {
               fill
               style={{ objectFit:"contain" }}
               alt=""
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
             />
           </div>
         </Link>
@@ -71,6 +74,9 @@ function Success({ products }: Props) {
                 fill
                 style={{ objectFit:"contain" }}
                 alt=""
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                33vw"
               />
             </div>
           </Link>
@@ -167,6 +173,9 @@ function Success({ products }: Props) {
                             fill
                             style={{ objectFit:"contain" }}
                             alt=""
+                            sizes="(max-width: 768px) 100vw,
+                            (max-width: 1200px) 50vw,
+                            33vw"
                           />
                         </div>
                         <div className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-[gray] text-xs">

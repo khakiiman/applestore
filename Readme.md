@@ -9,6 +9,7 @@ This website created by best new technology like:
 - Sanity
 - Stripe
 - Redux
+- Tailwindcss
 
 and awesome packages like:
 + Headless UI

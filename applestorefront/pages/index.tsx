@@ -46,7 +46,7 @@ const Home = ({ categories, products }: Props) => {
       <section className="relative z-40 -mt-[100vh] min-h-screen bg-[#1B1B1B]">
         <div className="space-y-10 py-16">
           <h1
-            className="text-center text-4xl font-medium tracking-wide text-white md:text-5xl"
+            className="text-center text-4xl font-medium tracking-wide text-[#E7ECEE] md:text-5xl"
             id="buySection"
           >
             New Promos
