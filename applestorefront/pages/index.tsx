@@ -23,6 +23,12 @@ const Home = ({ categories, products }: Props) => {
       .map((product) => <Product product={product} key={product._id} />); // filter products by category
   };
 
+  process.on("uncaughtException", console.log);
+  //  Uncaught Exception thrown - when you throw an error and did not catch anywhere.
+
+  process.on("unhandledRejection", console.log);
+  // Unhandled Rejection at Promise - similar, when you fail to catch a Promise.reject.
+
   return (
     <div className="">
       <Head>
@@ -69,6 +75,10 @@ const Home = ({ categories, products }: Props) => {
               <Tab.Panel className="tabPanel">{showProducts(1)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(2)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(3)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(4)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(5)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(6)}</Tab.Panel>
+              <Tab.Panel className="tabPanel">{showProducts(7)}</Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </div>

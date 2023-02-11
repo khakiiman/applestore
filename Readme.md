@@ -1,6 +1,24 @@
-![alt text](https://github.com/khakiiman/applestorefront/blob/main/applestorefront/public/view.png?raw=true)
+![alt text](https://github.com/khakiiman/applestorefront/blob/main/applestorefront/public/views.png?raw=true)
 # New Apple Store
 New Apple Store is ecommerce new-design website for apple products.
+## Description
+This website created by best new technology like:
+- React.js
+- Next.js
+- Typescript
+- Sanity
+- Stripe
+- Redux
+
+and awesome packages like:
++ Headless UI
++ Hero Icons
++ React Icons
++ Netlify
++ React Currency Formatter
++ Next Auth
++ React Hot Toast
++ React Responsive
 
 ## Installation
 ### Installation of frontend
@@ -16,7 +34,6 @@ yarn
 yarn dev
 ```
 
-## Description
 Open http://localhost:3000 with your browser to see the result. 
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
