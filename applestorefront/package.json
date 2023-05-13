@@ -15,7 +15,7 @@
     "@sanity/image-url": "^1.0.2",
     "@stripe/stripe-js": "^1.46.0",
     "@types/react-currency-formatter": "^1.1.4",
-    "next": "latest",
+    "next": "13.3.1",
     "next-auth": "^4.19.2",
     "next-auth-sanity": "^1.4.4",
     "next-sanity": "^4.1.2",
