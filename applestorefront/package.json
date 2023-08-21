@@ -17,7 +17,7 @@
     "@types/react-currency-formatter": "^1.1.4",
     "next": "latest",
     "next-auth": "^4.19.2",
-    "next-auth-sanity": "^1.4.4",
+    "next-auth-sanity": "^1.5.2",
     "next-sanity": "^4.1.2",
     "react": "18.2.0",
     "react-currency-formatter": "^1.1.0",
