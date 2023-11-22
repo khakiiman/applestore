@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.7",
+    "@headlessui/react": "^1.7.17",
     "@headlessui/tailwindcss": "^0.1.2",
     "@heroicons/react": "1.0.6",
     "@netlify/next": "^1.4.4",
